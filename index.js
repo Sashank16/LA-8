@@ -6,6 +6,7 @@ app.use(express.static('public')); // Folder to serve static files
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
+  res.send('Hello World 1.0!');
 });
 
 app.listen(port, () => {
